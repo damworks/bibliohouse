@@ -25,7 +25,7 @@ services:
             - mysql
             - redis
             - mailpit
-	        - phpmyadmin
+            - phpmyadmin
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:
