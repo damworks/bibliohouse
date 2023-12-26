@@ -79,7 +79,7 @@ services:
         networks:
             - sail
         environment:
-            - PMA_ARBITRARY=1 
+            PMA_HOST: '${DB_HOST}'
 networks:
     sail:
         driver: bridge
